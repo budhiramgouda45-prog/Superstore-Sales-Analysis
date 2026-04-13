@@ -76,6 +76,6 @@ This dashboard enables stakeholders to:
 ---
 
 ## Dashboard Preview
-(Add your dashboard screenshots here)
+[(Add your dashboard screenshots here)](https://github.com/budhiramgouda45-prog/Superstore-Sales-Analysis/blob/main/Detailed%20Dashboard%20Image.png)
 
 
