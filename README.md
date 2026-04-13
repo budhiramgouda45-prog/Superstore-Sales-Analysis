@@ -73,9 +73,3 @@ This dashboard enables stakeholders to:
 - Make data-driven decisions  
 - Improve sales strategy and planning  
 
----
-
-## Dashboard Preview
-[(Add your dashboard screenshots here)](https://github.com/budhiramgouda45-prog/Superstore-Sales-Analysis/blob/main/Detailed%20Dashboard%20Image.png)
-
-
