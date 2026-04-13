@@ -1,74 +1,81 @@
-# Superstore Sales Dashboard
+# Superstore Sales Analysis Using Power BI & SQL
 
-## Project Overview
-This project focuses on analyzing retail sales data using SQL and Power BI to generate actionable business insights. The goal was to build an interactive dashboard that helps stakeholders track key performance metrics and make data-driven decisions.
+## Problem Statement
+The objective of this project is to analyze the sales data of a retail Superstore and generate meaningful insights to support business decision-making. 
 
----
-
-## Business Problem
-The business lacked a clear view of important KPIs such as:
-- Total Sales
-- Total Orders
-- Total Customers
+The main challenge was the lack of clear visibility into key performance metrics such as:
+- Total Sales  
+- Total Orders  
+- Total Customers  
 - Average Order Value  
 
-Due to this, it was difficult to monitor performance and identify growth opportunities.
+Due to this, it was difficult for stakeholders to track performance and identify growth opportunities.
 
 ---
+## Solution
+To address this problem, an end-to-end data analysis solution was implemented using Python, SQL, and Power BI.
 
-## Tools & Technologies Used
-- **Power BI** – Dashboard development & visualization  
-- **SQL Server** – Data extraction & analysis  
-- **Python** – Data cleaning & preprocessing  
+- **Python** was used for data cleaning and preprocessing of the raw dataset  
+- The cleaned dataset was stored in a **SQL database**  
+- **SQL queries** were used to extract and analyze key business metrics  
+- **Power BI** was used to build an interactive dashboard for visualization  
+
+The final output is a **2-page interactive dashboard**:
+1. Executive Overview (KPIs & trends)  
+2. Detailed Analysis (region, customer, product insights)  
+
+---
+## Tools & Technologies
+- Python (Pandas, NumPy)  
+- SQL Server  
+- Power BI  
+---
+## 📊 Project Components
+This repository includes:
+
+- Python scripts for data cleaning and transformation  
+- SQL queries for data analysis and KPI calculation  
+- Power BI (.pbix) file with interactive dashboard  
+- Dataset used for analysis  
 
 ---
 
 ## Key Features of Dashboard
 
-### KPI Metrics
-- Total Sales: ~₹2.3 Million  
-- Total Orders: ~5000  
-- Total Customers: ~700  
-- Average Order Value: ~₹450  
-
-### Visualizations Used
--  Line Chart → Monthly Sales Trend  
--  Donut Chart → Segment-wise Sales  
--  Bar Charts → Category, Sub-category, Region, Customers  
--  Map → State-wise Sales Distribution  
-- Slicers → Year, Region, Segment filtering  
+- KPI Cards → Total Sales, Orders, Customers, Avg Order Value  
+- Line Chart → Monthly Sales Trend  
+- Donut Chart → Segment-wise Sales  
+- Bar Charts → Category, Sub-category, Region, Customers  
+- Map → State-wise Sales distribution  
+- Slicers → Dynamic filtering (Year, Region, Segment)  
 
 ---
-
 ## Key Insights
 - Technology category generated the highest revenue  
 - Consumer segment contributed the most sales  
-- West region performed best, especially California & New York  
-- November recorded the highest sales (seasonal trend)  
-- Standard Class shipping mode was most preferred  
-- Top customers contributed a significant portion of total revenue  
+- West region outperformed others, especially California and New York  
+- Sales peaked in November, indicating seasonal demand  
+- Standard Class shipping was the most preferred mode  
+- A small group of customers contributed significantly to total sales  
 
 ---
-
 ## Business Recommendations
-- Focus marketing efforts on high-performing products and regions  
+- Focus on high-performing products and regions  
 - Increase inventory for top-selling categories  
 - Run promotional campaigns during low-sales months  
-- Improve strategies for underperforming segments  
+- Optimize strategy for underperforming segments  
 
 ---
-
 ## Impact
 This dashboard enables stakeholders to:
 - Monitor overall business performance  
-- Identify top-performing areas  
-- Make informed, data-driven decisions  
+- Identify high-performing areas  
+- Make data-driven decisions  
 - Improve sales strategy and planning  
 
 ---
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 (Add your dashboard screenshots here)
 
----
 
